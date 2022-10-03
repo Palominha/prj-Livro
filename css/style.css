@@ -25,6 +25,19 @@ body {
 	background: var(--verde-clarinho);
 }
 
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:var(--bs-gray-900);
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--marrom-escuro);
+	border-radius: 3em;
+}
+
 .text-warning{
 	color: var(--marrom-medio) !important;
 }
